@@ -1,12 +1,12 @@
 <?php
 
-namespace shakura\yii2\gearman;
+namespace ykushev\yii2\gearman;
 
 use Yii;
 use yii\console\Controller;
 use yii\helpers\Console;
-use shakura\yii2\gearman\Process;
-use shakura\yii2\gearman\Application;
+use ykushev\yii2\gearman\Process;
+use ykushev\yii2\gearman\Application;
 
 class GearmanController extends Controller
 {

@@ -1,5 +1,5 @@
 <?php
-namespace shakura\yii2\gearman;
+namespace ykushev\yii2\gearman;
 
 use Closure;
 use Exception;
@@ -9,7 +9,7 @@ use React\EventLoop\Factory as Loop;
 use React\EventLoop\LibEventLoop;
 use React\EventLoop\StreamSelectLoop;
 use Serializable;
-use shakura\yii2\gearman\exception\InvalidBootstrapClassException;
+use ykushev\yii2\gearman\exception\InvalidBootstrapClassException;
 
 class Application
 {

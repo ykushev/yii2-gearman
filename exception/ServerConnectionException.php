@@ -1,5 +1,5 @@
 <?php
-namespace shakura\yii2\gearman\exception;
+namespace ykushev\yii2\gearman\exception;
 
 use Exception;
 
